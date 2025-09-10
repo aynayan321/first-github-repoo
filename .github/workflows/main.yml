@@ -1,0 +1,15 @@
+name: Ayan Rizvi
+on: 
+  push:
+    branches: [ main ]
+
+
+jobs:
+  demo:
+    runs-on: ubuntu-
+    
+      steps;
+        - name: greetings
+                run: echo "Ayan Ji"
+    
+  
