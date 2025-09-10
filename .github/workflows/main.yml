@@ -1,15 +1,9 @@
-name: Ayan Rizvi
-on: 
-  push:
-    branches: [ main ]
-
-
+name: CI
+on: [push, pull_request]
 jobs:
-  demo:
-    runs-on: ubuntu-
-    
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - name: Greetings
-        run: echo "Ayan Ji"
-    
-  
+      - uses: actions/checkout@v2
+      - name: Run script
+        run: echo "Hello GitHub Actions"
