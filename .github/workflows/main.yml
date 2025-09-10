@@ -8,8 +8,8 @@ jobs:
   demo:
     runs-on: ubuntu-
     
-      steps;
-        - name: greetings
+      steps:
+         - name: Greetings
                 run: echo "Ayan Ji"
     
   
